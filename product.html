@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <meta name="description" content="Beauty">
+  <meta name="keywords" content="beauty haircare bodycare makeup">
+  <meta name="author" content="Darko Jelic">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v6.1.0/css/all.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/splide.min.css">
+  <link rel="shortcut icon" href="images/logo_white.svg">
+  <title>Beauty Shop | Home</title>
+</head>
+
+<body>
+  <nav class="navigation">
+    <div class="logo"><a href="#"><img src="images/beauty_logo.png" alt="Beauty logo"></a></div>
+    <ul>
+      <li><a class="active" href="index.html">Brands</a></li>
+      <li><a href="#">Facelifting</a></li>
+      <li><a href="#">Haircare</a></li>
+      <li><a href="#">Bodycare</a></li>
+      <li><a href="#">Makeup</a></li>
+      <li><a href="#">Skincare</a></li>
+      <li><input id="input-field" type="text" placeholder="Search for products ..." onfocus="this.placeholder=''"
+          onblur="this.placeholder='Search for products ...'"></li>
+    </ul>
+    <i onclick="document.location='document.html'" class="burger fas fa-bars"></i>
+  </nav>
+  <main id="content">
+    <section>
+      <div class="product-container">
+        <div class="product-photo">
+          <img src="images/image 3.png" alt="Product photo">
+        </div>
+        <div class="product-details">
+          <div class="product-details_title">
+            <div class="product-link_path"><i class="fa-solid fa-arrow-left-long"></i>
+              <span class="link-path">ALL PRODUCTS</span> /
+              <span class="link-path">HAIRCARE</span> /
+              <span class="link-path">RESTORATIVE HAIR MASK</span>
+            </div>
+            <h2>Restorative hair mask</h2>
+            <h4>Nuturishment in a bottle</h4>
+          </div>
+          <div class="product-text">
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sed laudantium reprehenderit dolor ipsam fuga
+              delectus hic eveniet reiciendis incidunt suscipit veritatis sint libero, earum ab cum obcaecati ipsum quae
+              excepturi dolorum.</p>
+          </div>
+          <div class="icon-organic_wrapper">
+            <div class="icon-organic">
+              <img src="images/Group 194-1.png" alt="icon">
+              <span>100% Organic</span>
+            </div>
+            <div class="icon-organic">
+              <img src="images/Group 194-1.png" alt="icon">
+              <span>100% Organic</span>
+            </div>
+            <div class="icon-organic">
+              <img src="images/Group 194-1.png" alt="icon">
+              <span>100% Organic</span>
+            </div>
+            <div class="icon-organic">
+              <img src="images/Group 194-1.png" alt="icon">
+              <span>100% Organic</span>
+            </div>
+          </div>
+          <button onclick="document.location='document.html'" type="submit" class="btn">ADD TO CART</button>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <div class="product-list_title">
+        <h2>You may also like</h2>
+      </div>
+      <div class="list-container">
+        <div class="splide__track">
+          <ul class="splide__list">
+            <li class="product-list splide__slide">
+              <img src="images/image 5.jpg" alt="product">
+              <div class="text">
+                <div>Hand pomade / Pommade mains</div>
+                <div>Nourishment for your hands</div>
+                <div>159,00 KR</div>
+              </div>
+            </li>
+            <li class="product-list splide__slide">
+              <img src="images/image 5.jpg" alt="product">
+              <div class="text">
+                <div>Hand pomade / Pommade mains</div>
+                <div>Nourishment for your hands</div>
+                <div>159,00 KR</div>
+              </div>
+            </li>
+            <li class="product-list splide__slide">
+              <img src="images/image 5.jpg" alt="product">
+              <div class="text">
+                <div>Hand pomade / Pommade mains</div>
+                <div>Nourishment for your hands</div>
+                <div>159,00 KR</div>
+              </div>
+            </li>
+            <li class="product-list splide__slide">
+              <img src="images/image 5.jpg" alt="product">
+              <div class="text">
+                <div>Hand pomade / Pommade mains</div>
+                <div>Nourishment for your hands</div>
+                <div>159,00 KR</div>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+  </main>
+  <footer>
+    <p>Copyright &copy; <span id="year"></span> BEAUTY All rights reserved</p>
+    <div class="link">
+      <a href="#" target="_blank">Privacy Policy</a>
+    </div>
+  </footer>
+  <script src="js/splide.min.js"></script>
+  <script src="js/main.js"></script>
+</body>
+
+</html>
